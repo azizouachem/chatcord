@@ -6,7 +6,7 @@ const chatModel=mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref:"User",
        },
-       content:{type:dtring,trim:true},
+       content:{type:String,trim:true},
        chat:{type: mongoose.Schema.Types.ObjectId,
         ref:"Chat"},
 
